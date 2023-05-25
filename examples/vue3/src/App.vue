@@ -9,6 +9,8 @@
     <router-link to="/contact">通信</router-link>
     |
     <router-link to="/state">状态</router-link>
+    |
+    <router-link to="/contact/test">测试</router-link>
   </div>
   <router-view />
 </template>

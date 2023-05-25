@@ -18,6 +18,7 @@
         <router-link to="/vue3-sub/location">location</router-link>
         <router-link to="/vue3-sub/contact">contact</router-link>
         <router-link to="/vue3-sub/state">state</router-link>
+        <router-link to="/vue3-sub/contact/test">测试</router-link>
       </div>
       <router-link v-if="degrade" to="/vite"
         >vite

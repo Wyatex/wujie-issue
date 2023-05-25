@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "turbo run start --parallel --no-cache",
     "doc": "turbo run docs:dev --filter=wujie-doc",
-    "build": "turbo run build --filter=\"wujie-*\" --filter=wujie",
+    "build": "turbo run build",
     "clean": "rimraf node_modules **/*/node_modules",
     "test": "turbo run test",
     "lint": "turbo run lint --filter wujie",
